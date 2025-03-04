@@ -24,5 +24,7 @@ Follow these steps to set up and run the Sentinel Spy Satellite System.
 ### 1.  Download the Script
 
 Make sure file is on desktop as satellite_animation.py
+
 Then run in terminal cd ~/Desktop
+
 next run python3 satellite_animation.py
