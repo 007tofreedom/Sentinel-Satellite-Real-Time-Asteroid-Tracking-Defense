@@ -1,30 +1,21 @@
-# Sentinel Spy Satellite System
-
-A terminal-based simulation of a spy satellite, featuring ASCII art animations, real-time controls, and interactive events. Manage your satellite's health, solar power, and data collection while navigating challenges like debris fields and signal intercepts.
-
-## Features
-- **ASCII Art Animation**: Watch your satellite in action with dynamic frames that change based on health and actions (scanning, transmitting, repairing).
-- **Real-Time Controls**: Use single-key inputs (no `Enter` required) to control speed, initiate scans, transmit data, repair the satellite, and respond to events.
-- **Events and Challenges**: Encounter random events like debris fields and signal intercepts, requiring quick decisions to manage resources.
-- **Solar Power Management**: Monitor and manage solar power levels, which are consumed by actions like repairs and evasion maneuvers.
-- **Sound Effects (Optional)**: Add immersion with sound effects using `pygame` (requires `.wav` files).
-- **Persistent State**: Satellite state (health, data, missions completed, solar power) is saved to a JSON file between sessions.
-
-## Requirements
-- **Python 3.6+**: Ensure Python is installed on your system.
-- **Operating System**: Compatible with Windows, Linux, and macOS.
-- **Dependencies**:
-  - `colorama`: For colored terminal output.
-  - `pygame`: For sound effects (optional; script works without it if sound files are unavailable).
-- **Terminal/Console**: A terminal that supports ANSI escape codes for colors and ASCII art rendering (e.g., Windows Command Prompt, PowerShell, Linux Terminal, macOS Terminal).
-
-## Installation
-Follow these steps to set up and run the Sentinel Spy Satellite System.
-
-### 1.  Download the Script
-
-Make sure file is on desktop as satellite_animation.py
-
-Then run in terminal cd ~/Desktop
-
-next run python3 satellite_animation.py
+Title: Sentinel Spy Satellite Simulator - NASA API Edition
+Description:
+Take command of your own virtual spy satellite with the Sentinel Spy Satellite Simulator - NASA API Edition! This interactive Python-based simulation puts you in the pilot’s seat of a high-tech orbital observatory, blending real-time NASA data with an immersive ASCII art experience. Powered by NASA’s open APIs (EPIC and NeoWs), this tool fetches live Earth imagery coordinates and asteroid proximity alerts, merging them seamlessly into a dynamic satellite control interface.
+What It Does:
+	•	Real-Time NASA Data: Pulls live telemetry from NASA’s EPIC API (Earth Polychromatic Imaging Camera) for authentic latitude, longitude, and timestamps, plus NeoWs API for near-Earth object events.
+	•	Interactive Simulation: Control your satellite with real-time commands—scan sectors, transmit data, or repair systems—via intuitive keypress controls (S, D, C, T, R, Q).
+	•	Dynamic Events: Encounter randomized space hazards like debris fields or asteroid alerts (with real NEO data), requiring quick decisions to evade or intercept.
+	•	ASCII Art Display: Watch your satellite animate in retro-style ASCII art, with visual states reflecting health, scanning, transmitting, or repairs.
+	•	Persistent State: Tracks your satellite’s health, solar power, data collected, and missions completed, saved between sessions.
+Features:
+	•	NASA API Integration: Uses your NASA API key (or the included demo key) to fetch real data, with robust fallback to simulated telemetry if NASA’s servers are offline (e.g., during rare 503 errors).
+	•	Sound Effects: Optional Pygame audio for boot-up, events, scans, and transmissions (requires sound files: boot.wav, event.wav, scan.wav, transmit.wav).
+	•	Cross-Platform: Runs on Windows, macOS, or Linux with Python 3.x, requests, pygame, and colorama libraries.
+	•	Customizable: Adjust frame speed, log missions to satellite_log.txt, and tweak solar power regeneration rates.
+	•	Educational & Fun: Perfect for space enthusiasts, coders, or educators wanting to explore NASA data interactively.
+How to Use:
+	1.	Install Python and required libraries (pip install requests pygame colorama).
+	2.	Add your NASA API key (get one free at api.nasa.gov) or use the fallback mode.
+	3.	Run the script, press any key to boot, and start your mission!
+Whether you’re a developer curious about APIs, a space geek dreaming of orbit, or a creator looking for a unique project, this simulator delivers an out-of-this-world experience. Download now and launch your satellite into the cosmos!
+Note: Includes full source code (Python) and setup instructions. Sound files sold separately or create your own. Support included via Gumroad messaging—reach out if NASA’s servers play hard to get!
