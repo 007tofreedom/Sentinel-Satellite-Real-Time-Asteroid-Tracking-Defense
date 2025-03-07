@@ -31,7 +31,7 @@ Features:
 
 
 How to Use:
-1.      Install Python and required libraries (pip install requests pygame colorama).
+ 1.      Install Python and required libraries (pip install requests pygame colorama).
 	
  2.	Add your NASA API key (get one free at api.nasa.gov) or use the fallback mode.
 	
