@@ -33,9 +33,9 @@ Features:
 How to Use:
  1.      Install Python and required libraries (pip install requests pygame colorama).
 	
- 2.	Add your NASA API key (get one free at api.nasa.gov) or use the fallback mode.
+ 2.	 Add your NASA API key (get one free at api.nasa.gov) or use the fallback mode.
 	
- 3.	Run the script, press any key to boot, and start your mission!
+ 3.	 Run the script, press any key to boot, and start your mission!
 
 Whether you’re a developer curious about APIs, a space geek dreaming of orbit, or a creator looking for a unique project, this simulator delivers an out-of-this-world experience. Download now and launch your satellite into the cosmos!
 
