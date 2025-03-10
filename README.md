@@ -35,7 +35,7 @@ How to Use:
 	
  2.	 Add your NASA API key (get one free at api.nasa.gov) or use the fallback mode.
 	
- 3.	 Run the script, press any key to boot, and start your mission!
+ 3.	 Run the script, by putting satellite_animation.py on desktop then run in terminal cd ~/Desktop hit enter then run python3 satellite_animation.py 
 
 Whether you’re a developer curious about APIs, a space geek dreaming of orbit, or a creator looking for a unique project, this simulator delivers an out-of-this-world experience. Download now and launch your satellite into the cosmos!
 
