@@ -1,0 +1,6 @@
+pygame==2.6.1
+requests==2.31.0
+numpy==1.23.4
+matplotlib==3.6.3
+pandas==1.5.3
+scipy==1.10.1
