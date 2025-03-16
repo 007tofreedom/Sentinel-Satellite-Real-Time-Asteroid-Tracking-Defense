@@ -1,4 +1,0 @@
-pygame==2.6.1
-requests==2.25.1
-numpy==1.21.0
-setuptools
