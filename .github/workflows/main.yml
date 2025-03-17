@@ -27,4 +27,4 @@ jobs:
           pip install pygame colorama requests
 
       - name: Run Satellite Animation
-        run: python satellite_animationv11.py
+        run: python satellite_animationv.py
